@@ -2,8 +2,12 @@
 		.osn {
 				font-size: 16px;
 				color: #00688B;
-			    background-color:blink;				}	
-
+			  }	
+		.headr{
+				float: left;
+				padding:28px 15px 5px;
+				border-radius: 90px;
+				}
 		.zagolovok {font-size: 25px;
 					font-family: 'Times New Roman', Times, bold italic; 
 					font-style: italic;
@@ -14,10 +18,30 @@
 				font-weight: bolder;
 				font-size: 14px;
 				font-style: normal;}
-		div {
-			text-align: center
-		}
 
-		 
+		.menu {
+				text-align: left;
+				text-transform:uppercase;
+				margin: 1;
+				padding: 1;
+				list-style: none}
+		.menu li{
+				display: inline-block;
+				font-stretch: extra-expanded;
+				margin: 8px;
+				font-weight: bold;
+  				font-size: 100%;
+				white-space: nowrap;}
 
-		 
+		.pocatok { text-align: center;
+				   font-size: 120%;
+		 			}
+		.div {
+    			text-overflow: ellipsis;
+    			overflow: hidden;
+    			white-space: nowrap;
+    			width: 200px;	}
+		.myList { 
+  				  list-style-type: square ;
+   				 }
+  
